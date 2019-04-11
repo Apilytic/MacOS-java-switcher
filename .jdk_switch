@@ -1,5 +1,6 @@
 jdk_switch() {
         export JAVA_HOME=`/usr/libexec/java_home -v $1`
+	java -version
 }
 
 alias jdk8="jdk_switch 8"
