@@ -3,7 +3,7 @@ jdk_switch() {
 	java -version
 }
 
-alias jdk8="jdk_switch 8"
+alias jdk8="jdk_switch 1.8"
 alias jdk10="jdk_switch 10"
 alias jdk11="jdk_switch 11"
 alias jdk12="jdk_switch 12"
